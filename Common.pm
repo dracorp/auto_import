@@ -8,6 +8,7 @@ use base 'Exporter';
 use Log::Log4perl qw(:easy);
 Log::Log4perl->easy_init( {file => "STDOUT", layout => '%p - %m%n' } );
 
+# http://stackoverflow.com/questions/732133/how-can-i-export-all-subs-in-a-perl-package#answer-732366
 sub import {
     no strict 'refs';
 
