@@ -6,7 +6,9 @@ use warnings;
 use base 'Exporter';
 use Common;
 
-our @EXPORT = ( 'cf');
+our %EXPORT_TAGS = ( all => [ qw(cf), ], );
+Exporter::export_tags('all');
+#our @EXPORT = ( 'cf');
 
 sub cf { 
     INFO "Child\n";

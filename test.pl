@@ -15,3 +15,5 @@ use ParentModule;
 
 pf;
 cf;
+
+INFO "End";
