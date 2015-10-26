@@ -11,7 +11,7 @@ use ChildModule;
 our %EXPORT_TAGS = ( all => [ qw(pf), @ChildModule::EXPORT ], );
 Exporter::export_tags('all');
 
-sub pf { 
+sub pf {
     INFO "Parent\n";
 }
 
