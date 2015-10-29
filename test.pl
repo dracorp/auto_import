@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 #===============================================================================
 #       AUTHOR: Piotr Rogoza piotr.rogoza@lhsystems.com
 # ORGANIZATION: Lufthansa Systems
